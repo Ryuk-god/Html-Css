@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Position-exercise-pratice
+    </title>
+    <style>
+      .overlay{
+        background-color:rgba(0,0,0,0.4);
+        position:fixed;
+        left:0;
+        right:0;
+        bottom:0;
+        top:0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+      .model{
+        width:300px;
+        background-color:white;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:15px;
+        padding-right:15px;
+      }
+      .modal-title{
+        font-size:36px;
+        font-weight:bold;
+        font-family:arial;
+        margin-bottom:20px;
+      }
+      .modal-contain{
+        font-size:24px;
+        font-family:arial;
+        margin-bottom:15px;
+      }
+    </style>
+  </head>
+  <body style="height:3000px;">
+    <div style="background-color:green;
+      position:fixed;
+      right:0;
+      bottom:0;
+      top:0;
+      width:120px;
+      color:white;
+      font-size:18px;
+      ">
+      right-sidebar
+    </div>
+       <div class="overlay">
+        <div class="model">
+          <div class="modal-title">
+            Modal Title
+          </div>
+          <div class="modal-contain">
+            This is a model
+          </div>
+          <button>close</button>
+        </div>
+       </div>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Double-css-position</title>
+    <style>
+      .first-1{
+        background-color:rgb(33, 33, 33);
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        color:white;
+        align-items:center;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+      }
+      .picture{
+        object-fit: cover;
+        height:50px;
+        width:50px;
+        margin-bottom:10px;
+        border-radius:25px;
+
+      }
+      .first-2{
+        background-color: rgb(75, 75, 75);
+        left:70px;
+        top:0;
+        bottom:0;
+        position:fixed;
+        padding-left:12px;
+        padding-top:12px;
+        font-family:arial;
+        width:200px;
+      }
+      .contain-1{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding-right: 8px;
+        padding-left: 8px;
+        margin-bottom:16px;
+      }
+      .info{
+        font-family:arial;
+        font-size:18px;
+        color:white;
+        font-weight:bold;
+
+      }
+      .plus{
+        color:rgb(182, 173, 173);
+        font-size:18px;
+        font-weight:bold;
+      }
+      .contain-2{
+        display:flex;
+        flex-direction:row;
+        padding-left:8px;
+        padding-right:8px;
+        margin-bottom:12px;
+      }
+      .hastag{
+        margin-right:9px;
+        color:rgb(182, 173, 173);
+      }
+      .video{
+        color:rgb(182, 173, 173);
+      }
+    </style>
+  </head>
+  <body style="height:3000px;">
+   <div class="first-1">
+    <div> 
+      <img  class="picture" src="channel.yt/channel-2.jpeg">
+    </div>
+    <div>
+      <img class="picture" src="channel.yt/channel-3.jpeg">
+    </div>
+    <div>
+      <img class="picture" src="channel.yt/channel-4.jpeg">
+    </div>
+   </div>
+   <div class="first-2">
+    <div class="contain-1">
+      <div class="info">INFO</div>
+      <div class="plus">&plus;</div>
+    </div>
+    <div class="contain-2">
+      <div class="hastag">#</div>
+      <div class="video">new-videos</div>
+    </div>
+    <div class="contain-2">
+      <div class="hastag">#</div>
+      <div class="video">upates</div>
+    </div>
+    <div class="contain-2">
+      <div class="hastag">#</div>
+      <div class="video">faq</div>
+    </div>
+   </div>
+  </body>
+</html>

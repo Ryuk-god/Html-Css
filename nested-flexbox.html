@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested-Flexbox</title>
+    
+  </head>
+  <body>
+    <div style="display:flex;
+          flex-direction: row;margin-bottom:40px;">
+      <div style="background-color:lightpink;width:100px;">
+        <div style="background-color: black; color:white;flex:1;width:45px;align-items:center;justify-content:right;
+        margin-top:16px;margin-left:12px;margin-bottom: 16px;">
+          item1
+        </div>
+        
+      </div>
+      <div style="background-color: lightblue;width:200px;">
+       
+      </div>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .boss{
+        display:flex;
+        flex-direction:row;
+        height:100px;
+        margin-bottom:30px;
+      }
+      .column1{
+        display:flex;
+        background-color:lightpink;
+        width: 150px;
+      }
+      .column2{
+        display:felx;
+        flex-direction: row;
+        background-color: lightblue;
+        width:300px;
+      }
+      .row1{
+        display:flex;
+        font-weight:bold 700;
+        font-size:22px;
+      }
+      .column3{
+        display:flex;
+        font-weight:bold 700;
+        font-size:22px;
+        justify-content:space-between;
+      }
+      .row2{
+        background-color:black;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boss">
+      <div class="column1">
+      </div>
+      <div class="column2">
+        <div class="row1">
+          row1
+        </div>
+        <div class="column3">
+          <div class="row2">row2</div>
+          <div class="row2">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

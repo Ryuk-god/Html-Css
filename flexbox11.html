@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox-exercise-pratice</title>
+    <style>
+      div{
+        font-family:arial;
+      }
+      .container{
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:15px;
+        padding-right:15px;
+        border-radius:4px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25 );
+        width:450px;
+        margin-left:20px;
+        margin-top:20px;
+      }
+      .channel1{
+        color:rgb(120, 120, 120);
+        display:flex;
+        display:block;
+        margin-bottom:20px;
+      }
+      .channel2{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        margin-bottom:20px;
+        
+
+      }
+      .beauties{
+        border-radius:40px;
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        display:flex;
+        margin-right:9px;
+      }
+      .channel3{  
+        flex:1;
+      }
+      .timing{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        margin-bottom:3px;
+      }
+      .send-place{
+        font-size:18px;
+        font-weight:bold;
+      }
+      .send-time{
+        font-size:18px;
+        color:rgb(120,120,120);
+      }
+      .send-year{
+        font-size:18px;
+        font-weight:bold;
+        margin-bottom:3px;
+      }
+      .send-write{
+        color: rgb(120,120,120);
+      }
+      .header{
+        width:420px;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:4px;
+        box-shadow: 0 0 5px rgba(0, 0 ,0 , 0.25);
+        margin-top:40px;
+        margin-left:20px;
+        margin-bottom:20px;
+      }
+      .imagepov{
+        display:flex;
+        flex-direction:flex;
+        align-items:center;
+        margin-bottom:20px;
+      }
+      .imageview{
+        margin-right:12px;
+      }
+      .image{
+        width:80px;
+        height:80px;
+        object-fit:cover;
+        border-radius:25px;
+      }
+      .middle{
+        flex:1;
+      }
+      .function{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        margin-bottom:5px;
+      }
+      .super-simple{
+        margin-right:3px;
+        font-size:18px;
+        font-weight:bold;
+      }
+      .super-dev{
+        font-size:18px;
+        color: rgb(120,120,120);
+      }
+      .web{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        margin-bottom:20px;
+        font-size:18px;
+      }
+      .email{
+        width:360px;
+        margin-left: 50px;
+        border-radius:24px;
+        box-shadow:0 0 5px rgba(0,0,0,0.25);
+        padding-right:15px;
+        display:flex;
+        flex-direction:row;
+      }
+      .doit-color{
+        background-color:lightgray;
+        display:flex;
+        flex-direction:row;
+        width:200px;
+        margin-right:10px;
+        
+      }
+      .youtube-dev{
+        color:rgb(120, 120, 120);
+        font-size:18px;
+        margin-bottom:5px;
+        padding-top:20px;
+      }
+      .backend-dev{
+        font-size:18px;
+        margin-bottom:10px;
+        padding-bottom:20px;
+        font-weight:bold 700;
+      }
+    </style>
+  </head>
+  <body> 
+    <div class="container">
+      <div class="channel1"> 
+        ALL INBOXES
+      </div>
+      <div class="channel2">
+        <div class="channel"> 
+          <img class="beauties" src="channel.yt/channel-3.jpeg"> 
+        </div>
+        <div class="channel3">
+          <div class="timing">
+            <div class="send-place" >
+              Chewy Promotions
+            </div>
+            <div class="send-time">
+              4:58 PM
+            </div>
+          </div>
+          <div class="send-year"> 
+              Biggest salesof the year&excl;
+          </div>
+          <div class="send-write">
+            Hey there&excl; WE're writing to tell you about our...
+          </div>
+        </div>
+      </div>
+      
+      <div class="channel2">
+        <div class="channel"> 
+          <img class="beauties" src="channel.yt/channel-9.jpeg"> 
+        </div>
+        <div class="channel3">
+          <div class="timing">
+            <div class="send-place" >
+              Best Buy
+            </div>
+            <div class="send-time">
+              12:32 PM
+            </div>
+          </div>
+          <div class="send-year"> 
+              Your Best Buy eRciept
+          </div>
+          <div class="send-write">
+            Thank you for shopping at Best Buy, here is...
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="channel2">
+        <div class="channel"> 
+          <img class="beauties" src="channel.yt/channel-2.jpeg"> 
+        </div>
+        <div class="channel3">
+          <div class="timing">
+            <div class="send-place" >
+              Netflix
+            </div>
+            <div class="send-time">
+              9:00 AM
+            </div>
+          </div>
+          <div class="send-year"> 
+              Here's what's coming soon to Netflix
+          </div>
+          <div class="send-write">
+            Brand new movies and shows, old favorites...
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="header">
+      <div class="imagepov">
+        <div class="imageview">
+          <img  class="image" src="channel.yt/my-channel.jpeg">
+        </div>
+        <div class="middle">
+          <div class="function">
+            <div class="super-simple">supersimple.dev</div>
+            <div class="super-dev">@SuperSimpleDev</div>
+          </div>
+          <div class="web">
+            What is backend web development&quest; A complete overview. New video is up&excl;
+          </div>
+        </div>
+      </div>
+      <div class="email">
+        <div class="doit-color">
+        </div>
+        <div>
+          <div class="youtube-dev">youtube.com</div>
+          <div class="backend-dev">
+            Backend web development - a commplete overview (2021)
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
